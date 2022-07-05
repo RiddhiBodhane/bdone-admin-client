@@ -1,0 +1,71 @@
+.full-form {
+  width: 550px;
+  margin: 0 auto;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  padding: 25px;
+  margin-bottom: 30px;
+  background: #f8f7f7;
+}
+.form-fields {
+  display: flex;
+  align-items: center;
+  text-align: left;
+  margin: 0 auto 10px auto;
+}
+.form-fields label {
+  flex: 40%;
+  font-size:18px;
+}
+.form-fields div {
+  flex: 60%;
+}
+.form-fields input, .form-fields textarea, .form-fields select {
+  width: 100%;
+  height: 40px;
+  border-radius: 3px;
+  padding: 5px;
+  font-size: 16px;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+  border: 1px solid #ccc;
+}
+.form-fields textarea{
+  height: 60px;
+}
+.white-btn{
+  width: 300px;
+  height: 40px;
+  font-size: 16px;
+  background: #fff;
+  border-radius: 20px;
+  margin-top: 30px;
+  text-transform: uppercase;
+  font-weight: bold;
+  border:1px solid #000;
+  cursor: pointer;
+}
+.white-btn:hover{
+  background-color: #000;
+  color: #fff;
+  border-color:#fff;
+}
+.inputBox {
+  width: 100%;
+  height: 40px;
+  border-radius: 3px;
+  padding: 5px;
+  font-size: 16px;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+  border: 1px solid #ccc;
+  line-height: 2;
+}
+.twoFields {
+  display: flex;
+  justify-content: space-between;
+}
+.form-fields div.twoFields > div {
+  width: 48%;
+  flex: none;
+}

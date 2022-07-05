@@ -1,0 +1,18 @@
+body{
+  font-family: 'Roboto', sans-serif;
+}
+.container{
+  margin: 20px;
+}
+.center{
+  text-align: center;
+}
+.rightSidePage {
+  position: relative;
+  left: 20%;
+  padding: 1%;
+  width: 78%;
+}
+.rightSidePage h1 {
+  margin-top: 0;
+}

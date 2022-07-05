@@ -1,0 +1,79 @@
+.dashboardView {
+  position: fixed;
+  width: 20%;
+  height: 100%;
+  background: #000000;
+  box-shadow: 0 0 10px rgb(0 0 0 / 75%);
+}
+.leftSideListing ul li a img {
+  width: 24px;
+  margin-right: 15px;
+  position: relative;
+  top: 4px;
+}
+
+.dashboardView .rightSide {
+  width: 80%;
+}
+.leftSideListing ul li {
+  margin: 0 20px 20px;
+  text-align: left;
+}
+.leftSideListing ul li a {
+  color: #ffff;
+  text-decoration: none;
+  font-size: 22px;
+}
+.leftSideListing ul {
+  padding: 0;
+}
+.allListingBox .listingBox .boxImg {
+  background: #2e6f87;
+  width: 90px;
+  height: 90px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+}
+.allListingBox .listingBox .boxImg img{
+  width: 60px;
+}
+.allListingBox .listingBox:nth-child(2) .boxImg{
+  background:#ee3f38;
+}
+.allListingBox .listingBox:nth-child(3) .boxImg{
+  background:#55ae56;
+}
+.allListingBox {
+  display: flex;
+  justify-content: space-between;
+}
+.allListingBox .listingBox {
+  -webkit-box-shadow: 0 8px 6px -6px black;
+  -moz-box-shadow: 0 8px 6px -6px black;
+  box-shadow: 0 8px 6px -6px black;
+  display: flex;
+  width: 28%;
+  justify-content: space-between;
+  padding: 20px;
+}
+.allListingBox .listingBox .boxData{
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+}
+.allListingBox .listingBox .boxData h3 {
+  margin-top: 0;
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 8px;
+  color: #8a8383bd;
+}
+.allListingBox .listingBox .boxData .boxAmountOrCount {
+  font-size: 32px;
+  font-weight: 600;
+}
+.graphListing{
+  margin-top: 50px;
+}
